@@ -1,0 +1,114 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Lun. Janv. 17 16:49:24 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/******** DIRECTORY=exp_rep DUMPFILE= SYSTEM.dmp SCHEMAS=SYSTEM LOGFILE=SYSTEM.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 1.125 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+Processing object type SCHEMA_EXPORT/TYPE/TYPE_SPEC
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/SEQUENCE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/PRE_TABLE_ACTION
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/VIEW/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/POST_TABLE_ACTION
+Processing object type SCHEMA_EXPORT/POST_SCHEMA/PROCACT_SCHEMA
+. . exported "SYSTEM"."BON_AFFECTATION"                  5.875 KB       2 rows
+. . exported "SYSTEM"."BON_LIVRAISON"                    5.875 KB       2 rows
+. . exported "SYSTEM"."BON_SORTIE"                       5.867 KB       2 rows
+. . exported "SYSTEM"."CATEGORIE"                        5.453 KB       2 rows
+. . exported "SYSTEM"."COMMANDE"                         5.875 KB       2 rows
+. . exported "SYSTEM"."CONCERNER"                        5.875 KB       2 rows
+. . exported "SYSTEM"."CONTENIR"                         5.875 KB       2 rows
+. . exported "SYSTEM"."DEPARTEMENT"                      6.351 KB       4 rows
+. . exported "SYSTEM"."EMPLOYE"                          7.101 KB       2 rows
+. . exported "SYSTEM"."FOURNISSEUR"                      6.320 KB       2 rows
+. . exported "SYSTEM"."PRODUIT"                          7.531 KB       2 rows
+. . exported "SYSTEM"."RENFERMER"                        5.882 KB       2 rows
+. . exported "SYSTEM"."REPCAT$_AUDIT_ATTRIBUTE"          6.328 KB       2 rows
+. . exported "SYSTEM"."REPCAT$_OBJECT_TYPES"             6.882 KB      28 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION_METHOD"        5.835 KB      19 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_STATUS"          5.484 KB       3 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_TYPES"           6.289 KB       2 rows
+. . exported "SYSTEM"."SE_REFERE"                        5.882 KB       2 rows
+. . exported "SYSTEM"."DEF$_AQCALL"                          0 KB       0 rows
+. . exported "SYSTEM"."DEF$_AQERROR"                         0 KB       0 rows
+. . exported "SYSTEM"."DEF$_CALLDEST"                        0 KB       0 rows
+. . exported "SYSTEM"."DEF$_DEFAULTDEST"                     0 KB       0 rows
+. . exported "SYSTEM"."DEF$_DESTINATION"                     0 KB       0 rows
+. . exported "SYSTEM"."DEF$_ERROR"                           0 KB       0 rows
+. . exported "SYSTEM"."DEF$_LOB"                             0 KB       0 rows
+. . exported "SYSTEM"."DEF$_ORIGIN"                          0 KB       0 rows
+. . exported "SYSTEM"."DEF$_PROPAGATOR"                      0 KB       0 rows
+. . exported "SYSTEM"."DEF$_PUSHED_TRANSACTIONS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_AUDIT_COLUMN"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_COLUMN_GROUP"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_CONFLICT"                     0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_DDL"                          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_EXCEPTIONS"                   0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_EXTENSION"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_FLAVOR_OBJECTS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_FLAVORS"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_GENERATED"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_GROUPED_COLUMN"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_INSTANTIATION_DDL"            0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_KEY_COLUMNS"                  0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_OBJECT_PARMS"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PARAMETER_COLUMN"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PRIORITY"                     0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PRIORITY_GROUP"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REFRESH_TEMPLATES"            0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCAT"                       0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCATLOG"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCOLUMN"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPGROUP_PRIVS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPOBJECT"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPPROP"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPSCHEMA"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOL_STATS_CONTROL"          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION"                   0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION_STATISTICS"        0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RUNTIME_PARMS"                0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SITE_OBJECTS"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SITES_NEW"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SNAPGROUP"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_OBJECTS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_PARMS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_REFGROUPS"           0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_SITES"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_TARGETS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_USER_AUTHORIZATIONS"          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_USER_PARM_VALUES"             0 KB       0 rows
+. . exported "SYSTEM"."SQLPLUS_PRODUCT_PROFILE"              0 KB       0 rows
+. . exported "SYSTEM"."TESTT"                                0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\EXPORT\SYSTEM.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 16:49:47
