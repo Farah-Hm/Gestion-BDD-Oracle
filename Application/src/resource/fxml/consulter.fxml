@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1100.0" stylesheets="@../css/Main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.GestionConsulting">
+   <children>
+      <VBox layoutX="268.0" layoutY="14.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="125.0" prefWidth="600.0" spacing="30.0" style="-fx-background-color: #8b96d2;">
+               <children>
+                  <RadioButton fx:id="refere" mnemonicParsing="false" onAction="#getTable" styleClass="font-size-16" text="Se Referer" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="table" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="renfermer" mnemonicParsing="false" onAction="#getTable" styleClass="font-size-16" text="Renfermer" textFill="#f8f8f8" toggleGroup="$table" />
+                  <RadioButton fx:id="concerner" mnemonicParsing="false" onAction="#getTable" styleClass="font-size-16" text="Concerner" textFill="WHITE" toggleGroup="$table" />
+                  <RadioButton fx:id="contenir" mnemonicParsing="false" onAction="#getTable" styleClass="font-size-16" text="Contenir" textFill="#fffafa" toggleGroup="$table" />
+               </children>
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </HBox>
+            <AnchorPane fx:id="anchor_pane" prefHeight="439.0" prefWidth="600.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

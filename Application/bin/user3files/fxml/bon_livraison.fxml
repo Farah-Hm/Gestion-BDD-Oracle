@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1100.0" stylesheets="@../css/Main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user3.BonsLivraison">
+   <children>
+      <TableView fx:id="table" layoutX="192.0" layoutY="43.0" prefHeight="357.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="43.0">
+        <columns>
+          <TableColumn fx:id="num_bliv" prefWidth="273.0" text="Numero Bon-Livraison" />
+          <TableColumn fx:id="date_liv" prefWidth="424.0" text="Date Livraison" />
+            <TableColumn fx:id="quantite" prefWidth="402.0" text="Quantite " />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="-1.0" prefHeight="42.0" prefWidth="1100.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resource/image/rechercher.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="searchbar" prefWidth="700.0" promptText="Rechercher par date" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1100.0" style="-fx-background-color: white;" stylesheets="@../css/Main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user3.Employes">
+   <children>
+      <HBox alignment="CENTER" prefHeight="49.0" prefWidth="1100.0" spacing="10.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resource/image/rechercher.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="searchbar" prefWidth="700.0" />
+         </children>
+      </HBox>
+      <TableView fx:id="table" layoutX="192.0" layoutY="48.0" prefHeight="350.0" prefWidth="1100.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="48.0">
+        <columns>
+          <TableColumn fx:id="code_emp" prefWidth="151.0" text="Code Employe" />
+          <TableColumn fx:id="nom_emp" prefWidth="196.0" text="Nom Employe" />
+            <TableColumn fx:id="prenom_emp" prefWidth="251.0" text="Prenom Employe" />
+            <TableColumn fx:id="grade_emp" prefWidth="191.0" text="Grade Employe" />
+            <TableColumn fx:id="fonction" prefWidth="155.0" text="Fonction" />
+            <TableColumn fx:id="intitule" prefWidth="155.0" text="Departement" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

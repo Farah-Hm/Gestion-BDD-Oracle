@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="553.0" prefWidth="1319.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user3.MainController">
+   <children>
+      <HBox prefHeight="52.0" prefWidth="1336.0" style="-fx-background-color: #03a9f4;">
+         <children>
+            <HBox alignment="CENTER" prefHeight="52.0" prefWidth="1233.0" style="-fx-background-color: rgba(0,0,0,0);">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white;" text="Interface Utilisateur 3">
+                     <font>
+                        <Font name="Harlow Solid Italic" size="37.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#logout" prefHeight="503.0" prefWidth="1336.0" stylesheets="@../css/Main.css">
+         <children>
+            <VBox prefHeight="503.0" prefWidth="191.0" spacing="100.0" style="-fx-background-color: #0d3c61;">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="358.0" prefWidth="195.0" spacing="5.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="204.0" styleClass="button">
+                           <children>
+                              <ImageView fitHeight="27.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../resource/image/fournisseur.png" />
+                                 </image>
+                              </ImageView>
+                              <Button mnemonicParsing="false" onMouseClicked="#fournisseur" prefHeight="35.0" prefWidth="192.0" style="-fx-text-fill: white; -fx-background-color: rgba(0,0,0,0);" text="Fournisseurs">
+                                 <font>
+                                    <Font name="Georgia" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="54.0" prefWidth="204.0" styleClass="button">
+                           <children>
+                              <ImageView fitHeight="31.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../resource/image/afficher.png" />
+                                 </image>
+                              </ImageView>
+                              <Button mnemonicParsing="false" onMouseClicked="#consulte" prefHeight="44.0" prefWidth="369.0" style="-fx-text-fill: white; -fx-background-color: rgba(0,0,0,0);" text="Consulter">
+                                 <font>
+                                    <Font name="Georgia" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="logout" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: white;" text="Logout">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <styleClass>
+                              <String fx:value="font-bold" />
+                              <String fx:value="background-radius-10" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../resource/image/logout.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <AnchorPane fx:id="anchor" prefHeight="503.0" prefWidth="1170.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

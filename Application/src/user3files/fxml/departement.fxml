@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1100.0" stylesheets="@../css/Main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user3.Departements">
+   <children>
+      <TableView fx:id="table" layoutX="192.0" layoutY="47.0" prefHeight="353.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="47.0">
+        <columns>
+          <TableColumn fx:id="code_dep" prefWidth="151.0" text="Code Departement" />
+          <TableColumn fx:id="intitule" prefWidth="312.0" text="Intitule Departement" />
+            <TableColumn fx:id="nom_chef" prefWidth="355.0" text="Nom de Chef" />
+            <TableColumn fx:id="prenom_chef" prefWidth="281.0" text="Prenom de Chef" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="1.0" layoutY="1.0" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="1100.0" spacing="10.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="33.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resource/image/rechercher.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="searchbar" prefWidth="700.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
