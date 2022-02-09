@@ -1,10 +1,10 @@
 ;;; 
-Export: Release 11.2.0.2.0 - Production on Lun. Janv. 17 16:49:24 2022
+Export: Release 11.2.0.2.0 - Production on Mer. Févr. 9 12:23:48 2022
 
 Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
 Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
-Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/******** DIRECTORY=exp_rep DUMPFILE= SYSTEM.dmp SCHEMAS=SYSTEM LOGFILE=SYSTEM.log 
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  SYSTEM/******** DIRECTORY=exp_rep DUMPFILE= SYSTEM.dmp SCHEMAS=SYSTEM LOGFILE=SYSTEM.log; 
 Estimate in progress using BLOCKS method...
 Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
 Total estimation using BLOCKS method: 1.125 MB
@@ -39,24 +39,24 @@ Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
 Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
 Processing object type SCHEMA_EXPORT/TABLE/POST_TABLE_ACTION
 Processing object type SCHEMA_EXPORT/POST_SCHEMA/PROCACT_SCHEMA
-. . exported "SYSTEM"."BON_AFFECTATION"                  5.875 KB       2 rows
+. . exported "SYSTEM"."BON_AFFECTATION"                  5.890 KB       3 rows
 . . exported "SYSTEM"."BON_LIVRAISON"                    5.875 KB       2 rows
-. . exported "SYSTEM"."BON_SORTIE"                       5.867 KB       2 rows
-. . exported "SYSTEM"."CATEGORIE"                        5.453 KB       2 rows
+. . exported "SYSTEM"."BON_SORTIE"                       5.882 KB       3 rows
+. . exported "SYSTEM"."CATEGORIE"                        5.476 KB       4 rows
 . . exported "SYSTEM"."COMMANDE"                         5.875 KB       2 rows
-. . exported "SYSTEM"."CONCERNER"                        5.875 KB       2 rows
-. . exported "SYSTEM"."CONTENIR"                         5.875 KB       2 rows
-. . exported "SYSTEM"."DEPARTEMENT"                      6.351 KB       4 rows
-. . exported "SYSTEM"."EMPLOYE"                          7.101 KB       2 rows
+. . exported "SYSTEM"."CONCERNER"                        5.859 KB       1 rows
+. . exported "SYSTEM"."CONTENIR"                         5.859 KB       1 rows
+. . exported "SYSTEM"."DEPARTEMENT"                      6.546 KB      12 rows
+. . exported "SYSTEM"."EMPLOYE"                          7.164 KB       5 rows
 . . exported "SYSTEM"."FOURNISSEUR"                      6.320 KB       2 rows
-. . exported "SYSTEM"."PRODUIT"                          7.531 KB       2 rows
-. . exported "SYSTEM"."RENFERMER"                        5.882 KB       2 rows
+. . exported "SYSTEM"."PRODUIT"                          7.585 KB       3 rows
+. . exported "SYSTEM"."RENFERMER"                        5.867 KB       1 rows
 . . exported "SYSTEM"."REPCAT$_AUDIT_ATTRIBUTE"          6.328 KB       2 rows
 . . exported "SYSTEM"."REPCAT$_OBJECT_TYPES"             6.882 KB      28 rows
 . . exported "SYSTEM"."REPCAT$_RESOLUTION_METHOD"        5.835 KB      19 rows
 . . exported "SYSTEM"."REPCAT$_TEMPLATE_STATUS"          5.484 KB       3 rows
 . . exported "SYSTEM"."REPCAT$_TEMPLATE_TYPES"           6.289 KB       2 rows
-. . exported "SYSTEM"."SE_REFERE"                        5.882 KB       2 rows
+. . exported "SYSTEM"."SE_REFERE"                        5.867 KB       1 rows
 . . exported "SYSTEM"."DEF$_AQCALL"                          0 KB       0 rows
 . . exported "SYSTEM"."DEF$_AQERROR"                         0 KB       0 rows
 . . exported "SYSTEM"."DEF$_CALLDEST"                        0 KB       0 rows
@@ -111,4 +111,4 @@ Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
 ******************************************************************************
 Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
   C:\EXPORT\SYSTEM.DMP
-Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 16:49:47
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 12:24:28
